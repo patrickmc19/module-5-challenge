@@ -1,7 +1,28 @@
+$("#currentDay").text(moment().format("dddd MMMM, Do"));
+var currentHour = moment().hour()
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 $(function () {
+    for (let i = 9; i < 18; i++) {
+        if(currentHour > i){
+            $("#hour-"+i).children("textarea").addClass("past")
+        }
+        if(currentHour === i) {
+            $("#hour-"+i).children("textarea").addClass("present")
+        }
+        if(currentHour < i){
+            $("#hour-"+i).children("textarea").addClass("future")
+        }
+        var text = localStorage.getItem("hour-"+i)
+        $("#hour-"+i).children("textarea").val(text)
+    }
+    $(".saveBtn").on("click", saveButton)
+    function saveButton() {
+        var id = $(this).parent().attr("id")
+        var text = $(this).siblings("textarea").val()
+        localStorage.setItem(id, text)
+    }
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
   // local storage. HINT: What does `this` reference in the click listener
