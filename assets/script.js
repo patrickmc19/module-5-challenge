@@ -4,8 +4,6 @@
 // TODO: Add code to display the current date in the header of the page.
 $("#currentDay").text(moment().format("dddd MMMM, Do"));
 var currentHour = moment().hour()
-
-
 // TODO: Add code to apply the past, present, or future class to each time
 // block by comparing the id to the current hour. HINTS: How can the id
 // attribute of each time-block be used to conditionally add or remove the
