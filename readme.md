@@ -1,59 +1,37 @@
-# module-4-challenge
+# Daily Planner
+  undefined
+  ## Description
 
-## Description
+  A simple calendar app used to track work day tasks.
+  
+  ## Table of Contents
+  
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  
+  ## Installation
+  
+  Please do the following to install the application: undefined
+  
+  ## Usage
+  
+  none
+  
+  ## License
+ 
+  Apache 2.0
 
-Create a simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+  ## Contributing
 
-## User Story
+  Here are the contribution guidelines: none
+  
+  ## Tests
+  
+  Here is the test command: test
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+  ## Questions
 
-## Acceptance Criteria
-
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-WHEN I click into a time block
-THEN I can enter an event
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
-
-## Screenshot
-
-![](./assets/work-day-scheduler.jpg)
-
-## Deployed URL
-
-https://patrickmc19.github.io/module-5-challenge/
-
-## What was my motivation?
-
-To continue to develop and master my coding abilities related to javascript, for loops, jquery, dayjs, children, parent, sibling, localStorage, retrieving from localStorage, getItem, and setItem. To apply my learnings from the previous week.
-
-## Why did I build this project?
-
-To better understand the coding principles used in javascript and the sytax of the computer language.
-
-## What problem does it solve?
-
-Functional - this creates a simple planner for someone to reference throughout their day.
-
-## What did you learn?
-
-How to create more dynamic coding that allows for minimal lines. Parent, child, sibling, relationships and how to call specific selectors. Using for loops with defined numbers and looping through the different selectors.
-
-## What makes your project stand out?
-
-A quick and simple for loop for applying style classes to the time slots. Pulling values from local storage within the same for loop.
+  For further questions or comments please email me: patrickgmcknight@gmail.com
+  
+  Here's a link to my github account: https://github.com/patrickmc19
